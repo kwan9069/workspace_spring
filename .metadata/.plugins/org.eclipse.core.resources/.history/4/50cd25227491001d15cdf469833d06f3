@@ -1,0 +1,11 @@
+package memberservice;
+
+public class MemberJanService implements MemberService {
+
+	@Override
+	public void registerMember() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

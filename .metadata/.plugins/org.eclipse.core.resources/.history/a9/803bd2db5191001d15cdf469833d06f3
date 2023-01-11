@@ -1,0 +1,19 @@
+package tv;
+
+public class TvMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tv tv=new SamsungTV();
+		tv.powerOn();
+		tv.soundUp(5);
+		tv.soundDown(3);
+		tv.powerOff();
+		tv=new LgTV();
+		tv.powerOn();
+		tv.soundUp(5);
+		tv.soundDown(3);
+		tv.powerOff();	
+	}
+
+}
