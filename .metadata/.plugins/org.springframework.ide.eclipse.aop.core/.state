@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="first"/>
+<aop-project name="first">
+<aspect-definition advice-class-name="aop1_8.Common" advice-method-name="c" advice-type="AROUND" aspect-end-line-number="19" aspect-name="common" aspect-start-line-number="19" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/first/src/main/java/aop1_8/aop1.xml" pointcut-expression="execution (* aop1_8.*.*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:first|3:src/main/java/aop1_8/aop1.xml|7:beans:6|8:member:8" bean-file="/first/src/main/java/aop1_8/aop1.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/first/src/main/java/aop1_8/aop1.xml" source="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Common.java[Common~c~QProceedingJoinPoint;" source-start-line="19" target="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Member.java[Member~logout" target-start-line="7"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:first|3:src/main/java/aop1_8/aop1.xml|7:beans:6|8:board:9" bean-file="/first/src/main/java/aop1_8/aop1.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/first/src/main/java/aop1_8/aop1.xml" source="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Common.java[Common~c~QProceedingJoinPoint;" source-start-line="19" target="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Board.java[Board~getList" target-start-line="9"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:first|3:src/main/java/aop1_8/aop1.xml|7:beans:6|8:board:9" bean-file="/first/src/main/java/aop1_8/aop1.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/first/src/main/java/aop1_8/aop1.xml" source="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Common.java[Common~c~QProceedingJoinPoint;" source-start-line="19" target="=first/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;aop1_8{Board.java[Board~insert~I" target-start-line="6"/>
+</aspect-definition>
+</aop-project>
 </aop-reference-model>
