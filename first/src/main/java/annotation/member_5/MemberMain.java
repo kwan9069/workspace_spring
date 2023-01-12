@@ -11,7 +11,7 @@ public class MemberMain {
 //		MemberDAO dto=factory.getBean("dto1",MemberDAO.class);
 		boolean isLogin=dao.selectMember();
 		if(isLogin) {
-			System.out.println(dao.dto.getId()+ " 회원님 정상 로그인되셨습니다.");
+			System.out.println(dao.dto2.getId()+ " 회원님 정상 로그인되셨습니다.");
 		}
 		else {
 			dao.insertMember();

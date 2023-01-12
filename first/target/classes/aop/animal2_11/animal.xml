@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+<bean id="cat" class="aop.animal1_10.Cat"/>
+<bean id="dog" class="aop.animal1_10.Dog"/>
+<bean id="rabbit" class="aop.animal1_10.Rabbit"/>
+<bean id="animalaspect" class="aop.animal1_10.AnimalAspect"/>
+
+<aop:config>
+<aop:pointcut expression="execution(public String aop.animal1.*.lunch())"   id="pc"/>
+<aop:aspect id="aop" ref="animalaspect">
+<aop:before method="around" pointcut-ref="pc"/>
+</aop:aspect>
+</aop:config>
+</beans>

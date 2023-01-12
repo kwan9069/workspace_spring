@@ -7,6 +7,8 @@
 	</configSuffixes>
 	<enableImports><![CDATA[true]]></enableImports>
 	<configs>
+		<config>src/main/java/aop1_8/aop1.xml</config>
+		<config>src/main/java/aop/animal1_10/animal.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+<!-- <bean id="cat" class="aop.animal1_10.Cat"/> -->
+<!-- <bean id="dog" class="aop.animal1_10.Dog"/> -->
+<!-- <bean id="rabbit" class="aop.animal1_10.Rabbit"/> -->
+<!-- <bean id="animalaspect" class="aop.animal1_10.AnimalAspect"/> -->
+
+
+<context:component-scan base-package="aop.animal2"></context:component-scan>
+<aop:aspectj-autoproxy/>
+
+</beans>
