@@ -12,7 +12,11 @@ public class HelloController implements Controller {
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
+	// 1> 필요하지 않는 매개변수 선언
+		// 2> 리턴타입 고정
+		// 3> 1개 url 처리
 	
+		
 	HelloDTO dto=new HelloDTO();
 	dto.setMessage("컨트롤러가 view로 전달하는 모델입니다.");
 	ModelAndView mv=new ModelAndView();

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository("dao")
 public class MemberDAO {
 	@Autowired //2개 dto,dto2
-//	@Qualifier("dto2")
+//	@Qualifier("dto")
 	MemberDTO dto2;
 /* 1.MemberDTO 타입 객체를 찾는다.
  * 2. 여러개 찾는다- 변수명 일치 객체 찾는다. 1개 자동 주입.

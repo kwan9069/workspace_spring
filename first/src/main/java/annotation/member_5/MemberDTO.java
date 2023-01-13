@@ -2,7 +2,7 @@ package annotation.member_5;
 
 import org.springframework.stereotype.Component;
 //MemberDTO memberDTO=new MemberDTO();
-@Component("dto")
+//@Component("dto")
 public class MemberDTO {
 	String id,pw,name,email,phone,address,indate;
 	
