@@ -11,6 +11,7 @@
 		<config>src/main/java/aop/animal1_10/animal.xml</config>
 	</configs>
 	<autoconfigs>
+		<config>src/main/java/annotation/springmvc_13/member.xml</config>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
 		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
 	</autoconfigs>

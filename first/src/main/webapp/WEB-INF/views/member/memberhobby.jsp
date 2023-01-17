@@ -18,3 +18,4 @@
 <input type=checkbox name="hobby" value="study"> 공부<br>
 </body>
 </html>
+
